@@ -90,7 +90,7 @@ def parse_line(line):
 
 
 # Load input data (do not use aoc2022_common method here, we want
-# to keep everything, included spaces)
+# to keep everything, spaces included)
 fd = open('input_day_5.txt')
 _input_data = [line.replace('\n','') for line in fd.readlines()]
 fd.close()
